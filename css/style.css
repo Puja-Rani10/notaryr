@@ -1,0 +1,267 @@
+/*header*/
+body{
+	margin:0; 
+	padding:0;
+}
+header{
+
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.logo{
+	margin-top: 3px;
+	float: left;
+	width: 18%; 
+	/*border: 1px solid yellow;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+    padding: 10px 16px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #535D69;
+    text-decoration: none;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #BD233F
+}
+/*header*/
+/*banner start*/
+.banner{
+	min-height: 450px;
+	background-image: url(../work.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.b_content{
+	margin: 100px 0;
+	width: 50%;
+	/*border: 1px solid red;*/
+}
+
+.b_content h1{ 
+	margin-bottom:0 0 30px;
+	font-family:sans-serif; 
+	font-size:58.1px;
+	font-weight:700;
+	color:white;
+	text-transform: capitalize;
+}
+.b_content p{
+	font-family:sans-serif; 
+	font-size:17px;
+	font-weight:normal;
+	color:white;
+	line-height: 25px;
+}
+.b_content button{
+	margin-top: 40px;
+	width: 250px;
+	height: 50px;
+	background-color: #B5273F;
+	border: none;
+	font-family:sans-serif; ;
+	font-size:17px;
+	font-weight:normal;
+	color:white;
+    cursor: pointer;
+    transition: .3s;
+}
+/*banner end*/
+/*works start*/
+.works{
+	padding: 90px 0;
+}
+.c_header{
+	margin: 0 auto 50px;
+	width: 70%;
+	/*border:1px solid red;*/
+	text-align: center;
+ }
+.c_h1{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-style: 30px;
+	font-weight: 700;
+	color: #161616;
+}
+.c_p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight: 700;
+	color: #535D69;
+	line-height: 25px; 
+
+}
+.w_content{
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.single{
+	float: left;
+	padding: 20px 4.15%;
+	width: 25%;
+	/*border: 1px solid red;*/
+	text-align: center;
+	cursor: pointer;
+}
+.s_img{
+	margin: 0 auto;
+	width:50%; 
+}
+.s_img img{
+	width: 100%;
+}
+.single h3{
+	font-family: sans-serif;
+	font-size:18px;
+	font-weight:700;
+	color:#515B67;
+	line-height:25px;
+}
+/*works end*/
+/*work2 start*/
+.work2{ 
+   background-color: #E7EEF6;
+   background-position: 
+ }
+.d_content{
+	width: 38%;
+	float: left;
+}
+.d_content h2{
+	margin: 10px 0;
+    font-family:sans-serif; 
+    font-size:26px;
+    font-weight:700;
+    line-height:35px;
+}
+.d_content p{
+	font-family:sans-serif;
+	font-size:16px;
+	font-weight:bold;
+    color: #9D9D9D
+}
+.d_content button{
+	margin-top: 20px;
+	width: 200px;
+	height: 45px;
+	background-color: #B5273F;
+	border: none;
+	font-family:sans-serif; ;
+	font-size:14px;
+	font-weight:normal;
+	color:white;
+    cursor: pointer;
+    transition: .3s;
+}
+.v_img{
+	width: 52%;
+	float: right;
+	padding-right:0;
+}
+.v_img img{
+	width: 100%;
+	height: 250px;
+}
+
+/*works2 end*/
+/*features start*/
+.works3{
+	padding: 90px 0;
+}
+.e_content{
+	margin: 0 auto 50px;
+	width: 70%;
+	/*border:1px solid red;*/
+	text-align: center;
+}
+.e_h1{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-style: 30px;
+	font-weight: 700;
+	color: #161616;
+}
+.e_p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight: 700;
+	color: #535D69;
+	line-height: 25px; 
+
+}
+.f_content{
+	overflow: hidden;
+	/*border: 1px solid red;*/
+  
+}
+.first{
+	float: left;
+	padding: 20px 4.07%;
+	width: 25%;
+	/*border: 1px solid red;*/
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.f_button{
+	width: 20%;
+	margin: 0 auto;
+}
+.f_button button{
+	margin: 80px 0 80px ;
+	padding: 15px 25px;
+	color: #B5273F;
+	border: none;
+	background-color: #DAE0F1;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .3s;
+
+           
+}
+.f_button button:hover{
+	color: white;
+	background-color: #B5273F;
+}
+/*features end*/
+/*footer buttom start*/
+
+}
+/*.footer_bottom_container{
+	width: 1000px;
+}
+/*.footer_bottom_container p{
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}*/
+/*footer buttom end*/
